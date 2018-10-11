@@ -2,23 +2,21 @@
 #
 
 # Site settings
-title: Spectral
+title: Pitch Black Recovery
 description: |
-  Another fine responsive  
-  site template freebie  
-  crafted by [HTML5 UP](http://html5up.net)
+  An open source custom recovery
 owner: Your Name # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: your-email@domain.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "pitchblack.github.io" # the base hostname & protocol for your site
 social:
   twitter: https://twitter.com/<username>
   github: https://github.com/PitchBlack-Recovery
+  telegram: https://t.me/twrppb
   #linkedin-square: https://linkedin.com/in/<username>
   #facebook-official: https://facebook.com/<username>
   #google-plus-square: https://plus.google.com/u/0/+<username>
-  telegram: https://t.me/twrppb
   #email: /contact/
   #flickr:
   #instagram:
