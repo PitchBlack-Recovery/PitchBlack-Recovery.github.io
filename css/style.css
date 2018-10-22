@@ -161,7 +161,7 @@ figure {
 	padding:20px 60px 0;
 }
 .fp-scrollable {
-	height:calc(100vh - 200px) !important;		
+	height:calc(100vh - 200px) !important;
 }
 #fp-nav ul li a span {
 	margin:0 !important;
@@ -554,7 +554,7 @@ figure {
 	background:#fff;
 	width:100px;
 	height:4px;
-	margin:5px auto 0;	
+	margin:8px auto 0;	
 }
 .welcome-box .btn {
 	margin-top: 10px;	
