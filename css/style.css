@@ -141,7 +141,7 @@ figure {
 }
 .wrapper-background:after {
 	content: '';
-	opacity: 0.92;	
+	opacity: 0.85;	
 	background: rgb(19,139,79);
 	background: -moz-linear-gradient(top, rgba(19,139,79,1) 0%, rgba(19,79,139,1) 100%);
 	background: -webkit-linear-gradient(top, rgba(19,139,79,1) 0%,rgba(19,79,139,1) 100%);
@@ -155,7 +155,7 @@ figure {
 }
 .wrapper-background-dark:after {
 	background: #222;
-	opacity:0.95;
+	opacity:0.87;
 }
 .section-inner {
 	padding:20px 60px 0;
@@ -354,7 +354,7 @@ figure {
 	padding:0 20px;	
 }
 #logo img {
-	max-width: 201px;
+	max-width: 250px;
 	width: auto;
 	height: auto;	
 }
