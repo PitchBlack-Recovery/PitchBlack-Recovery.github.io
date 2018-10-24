@@ -184,8 +184,9 @@
 	}).on('click', '.navigation-menu > li > a', function() {
 		$('.navbar-collapse').slideUp(300);	
 	}).on('click', '.next-section', function() {
-		fullpage_api.moveSectionDown();
+		fullpage_api.moveTo(5);
 	});
+    
 	
 	$('.facts-row').on('inview', function(event, isInView) {
 	  	$('.count-number').each(function () {
