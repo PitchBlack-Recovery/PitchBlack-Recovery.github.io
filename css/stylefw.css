@@ -1,0 +1,31 @@
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    font-family:'Open Sans', Arial, Helvetica, sans-serif;
+    padding: 15px;
+    text-align: left;
+}
+table tr:nth-child(even) {
+    background-color: #2e2e2e;
+}
+table tr:nth-child(odd) {
+   font-family:'Open Sans', Arial, Helvetica, sans-serif;
+   background-color: #1a1a1a;
+}
+table th {
+    font-size: 18px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+
+
+/**
+ * sloppy
+**/
