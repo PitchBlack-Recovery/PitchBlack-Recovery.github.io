@@ -610,13 +610,23 @@ figure {
 	color:#222;
 }
 .count-number, .counted {
-	display:block;	
+	display:inline-block;	
 	font-size:36px;
 	font-weight:700;
 	line-height:1;
 	margin-bottom:10px;
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
+
+.countext {
+	display: inline-block;	
+	font-size:36px;
+	font-weight:700;
+	line-height:0;
+	margin-bottom:10px;
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
 
 /*==============================================
 06. SERVICES BLOCK CSS
