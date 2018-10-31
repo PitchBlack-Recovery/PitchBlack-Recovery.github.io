@@ -146,11 +146,11 @@ figure {
 .wrapper-background:after {
 	content: '';
 	opacity: 0.85;	
-	background: rgb(19,139,79);
+	background: rgb(219,87,72);
 	background: -moz-linear-gradient(top, rgba(19,139,79,1) 0%, rgba(19,79,139,1) 100%);
 	background: -webkit-linear-gradient(top, rgba(19,139,79,1) 0%,rgba(19,79,139,1) 100%);
-    background: linear-gradient(to bottom, rgba(19,139,79,1) 0%,rgba(19,79,139,1) 100%);
-    /*background: linear-gradient(to bottom, rgba(18,18,18,1) 0%, rgba(89,89,89,1) 50%, rgba(123,68,68,1) 70%, rgba(219,87,72,1) 100%);*/
+    /*background: linear-gradient(to bottom, rgba(19,139,79,1) 0%,rgba(19,79,139,1) 100%);*/
+    background: linear-gradient(to bottom, rgba(18,18,18,1) 0%, rgba(89,89,89,1) 50%, rgba(123,68,68,1) 70%, rgba(219,87,72,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#138b4f', endColorstr='#134f8b',GradientType=0 );
 	position:absolute;
 	left:0;
@@ -1251,23 +1251,23 @@ textarea.form-control {
 ==================================================*/
 
 .features-wrap {
-    border: 2px solid #FFFFFF;
-    border-radius: 10px;
-    margin-bottom: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    margin-bottom: 40px;
     padding: 20px 25px 13px;
 }
 .features-wrap h3 {
     text-align: center;
     
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .features-wrap:hover {
-    border: 2px solid #FFFFFF;
-    border-radius: 10px;
-    margin-bottom: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    margin-bottom: 40px;
     padding: 20px 25px 13px;
-    box-shadow: 0 7px 10px -3px #0033cc;
+    box-shadow: 0 7px 10px -3px rgba(18, 18, 18, 0.8);
     transition: 1s ease;
 }
 .features-img img {
