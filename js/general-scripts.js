@@ -75,7 +75,7 @@
 	========================================================== */
 	if( $('.services-list').length){
 		$('.services-list').owlCarousel({
-			loop:false,
+			loop:true,
 			nav:true,
 			dots:false,
 			items:3,
