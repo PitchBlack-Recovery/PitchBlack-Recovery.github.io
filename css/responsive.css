@@ -201,17 +201,17 @@
 	.navigation-menu > li {
 		display: block;	
 		margin: 0;
-		border-top: 1px solid #d0d0d0;
 		font-size: 15px;
 	}
 	.navigation-menu > li > a {
-		color:#222;
+		color:#fff;
 		padding:15px;
-		line-height:1.2;
+		line-height:2;
+        font-weight: bold;
 	}
 	.navbar-nav {
 		max-height: calc(100vh - 83px);
-		min-height: calc(100vh - 83px);
+		/*min-height: calc(100vh - 83px);*/
 		overflow-y: auto;
 		display:block;
 	}
@@ -219,13 +219,14 @@
 		display:none;	
 	}
 	.nav-box {
+        border-radius: 10px;
+        width: 200px;
 		position: absolute;
-		left: -15px;
-		right: -15px;
+		right: 2px;
 		border: 0;
 		box-shadow: none;
-		background: #fff;
-		text-align:left;
+		background: #121212;
+		text-align:center;
 		top: 100%;
 		display:none;
 	}
