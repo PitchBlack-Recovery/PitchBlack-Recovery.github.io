@@ -241,14 +241,14 @@
 	
 	$(document).ready(function() {
  
-    $(".featuresslide").owlCarousel({ 
-        
+    $(".featuresslide").owlCarousel({
+ 
       navigation : true, // Show next and prev buttons
       smartSpeed:600,
       items: 1,
       loop:true,
       autoplay:true,
-      margin: 30,
+ 
       // "singleItem:true" is a shortcut for:
       // items : 1, 
       // itemsDesktop : false,
