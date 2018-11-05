@@ -236,7 +236,29 @@
 				}
 			}
 		});
-	}	
+	}
+	
+	
+	$(document).ready(function() {
+ 
+    $(".featuresslide").owlCarousel({
+ 
+      navigation : true, // Show next and prev buttons
+      smartSpeed:600,
+      items: 1,
+      loop:true,
+      autoplay:true,
+ 
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+ 
+    });
+ 
+    });
 	
 	
 	

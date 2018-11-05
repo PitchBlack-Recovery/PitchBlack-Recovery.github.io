@@ -1277,3 +1277,9 @@ textarea.form-control {
     display: block;
     margin: 0px auto;
 }
+
+.featuresslide img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
