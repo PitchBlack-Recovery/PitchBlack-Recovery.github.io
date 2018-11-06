@@ -1283,3 +1283,8 @@ textarea.form-control {
     width: 100%;
     height: auto;
 }
+
+.featuresslide .owl-dots {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
