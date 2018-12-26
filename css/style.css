@@ -1,6 +1,6 @@
 /*
 Author       : LitmusThemes
-Template Name: 
+Template Name:
 Version      : 1.0
 */
 
@@ -21,7 +21,7 @@ CSS SITEMAP >>>>
 	12. INDEX GRADIENTS PAGE
 	13. INDEX SLIDESHOW PAGE
 	14.	PROJECT DETAILS PAGE
-	
+
 ==================================================*/
 
 /*==============================================
@@ -31,7 +31,7 @@ CSS SITEMAP >>>>
 	border-radius: 50%;
 }
 
-html, 
+html,
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
@@ -49,8 +49,8 @@ img {
 	border: 0;
 	max-width: 100%;
 }
-html {  
-	-ms-overflow-style: scrollbar; 
+html {
+	-ms-overflow-style: scrollbar;
 }
 .alltrans,
 .social-icons li a,
@@ -65,7 +65,7 @@ html {
 .close-btn,
 .close-btn:before,
 .close-btn:after,
-.tag-btn {	
+.tag-btn {
 	-webkit-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 }
@@ -73,7 +73,7 @@ a {
 	color: #fff;
 	text-decoration: none;
 }
-a:hover, 
+a:hover,
 a:focus {
 	color: #fff;
 	outline: none;
@@ -87,11 +87,11 @@ a:active {
 p {
 	margin: 0 0 20px;
 }
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
 	line-height: 1.2;
 	margin: 0 0 20px;
@@ -99,7 +99,7 @@ h6 {
 	text-transform:uppercase;
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
-h1, 
+h1,
 h2 {
 	font-size: 66px;
 }
@@ -129,7 +129,7 @@ h6 {
 	margin: 0 !important;
 }
 figure {
-	margin:0;	
+	margin:0;
 }
 
 
@@ -141,11 +141,11 @@ figure {
 	width:100%;
 	z-index:-1;
 	background-position:50% 0;
-	background-size:cover;	
+	background-size:cover;
 }
 .wrapper-background:after {
 	content: '';
-	opacity: 0.85;	
+	opacity: 0.85;
 	/*background: rgb(219,87,72);
 	background: -moz-linear-gradient(top, rgba(19,139,79,1) 0%, rgba(19,79,139,1) 100%);
 	background: -webkit-linear-gradient(top, rgba(19,139,79,1) 0%,rgba(19,79,139,1) 100%);
@@ -169,12 +169,12 @@ figure {
 	padding:20px 60px 0;
 }
 .fp-scrollable {
-	height:calc(100vh - 200px) !important;		
+	height:calc(100vh - 200px) !important;
 }
 #fp-nav ul li a span {
 	margin:0 !important;
 	width:auto !important;
-	height:auto !important;	
+	height:auto !important;
 	width:7px !important;
 	height:7px !important;
 	background:#fff;
@@ -189,14 +189,14 @@ figure {
 	height:auto;
 	margin:10px;
 	width:17px;
-	height:17px;	
+	height:17px;
 }
 #fp-nav ul li .fp-sr-only {
 	display:none;
 }
 #fp-nav ul li a {
 	width:auto;
-	height:auto;	
+	height:auto;
 }
 #fp-nav ul li a span:after {
 	content:'';
@@ -209,7 +209,7 @@ figure {
 	border:1px solid transparent;
 }
 #fp-nav ul li a.active span:after {
-	border-color: #fff;	
+	border-color: #fff;
 }
 
 .btn {
@@ -218,32 +218,32 @@ figure {
 	text-align:center;
 	line-height:52px;
 	padding:0 35px;
-	border-radius:50px;	
+	border-radius:50px;
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 	text-transform:uppercase;
 	font-weight:600;
-	border:2px solid transparent;	
+	border:2px solid transparent;
 }
 .btn:hover, .btn:focus {
-	color:#fff;	
+	color:#fff;
 	border-color:#fff;
 	background:none;
 }
 .btn:focus {
 	box-shadow:none;
-	outline:none;	
+	outline:none;
 }
 .btn.btn-xs {
 	line-height:34px;
 	font-size:12px;
 	padding:0 20px;
-	font-weight: 500;	
+	font-weight: 500;
 }
 .btn.btn-outline {
 	background:none;
 	border-color:#fff;
 	color:#fff;
-	border-width:1px;	
+	border-width:1px;
 }
 .btn.btn-outline:hover, .btn.btn-outline:focus {
 	background:#fff;
@@ -251,7 +251,7 @@ figure {
 }
 .btn.btn-dark {
 	background: #222;
-	color:#fff;	
+	color:#fff;
 	border-color: #222;
 }
 .btn.btn-dark:hover, .btn.btn-dark:focus {
@@ -350,7 +350,7 @@ figure {
 02. HEADER CSS
 ================================================*/
 #header {
-	padding:20px 0;	
+	padding:20px 0;
 	position: fixed;
 	left:0;
 	right:0;
@@ -359,31 +359,31 @@ figure {
 	z-index:99;
 }
 .container-fluid {
-	padding:0 20px;	
+	padding:0 20px;
 }
 #logo img {
 	max-width: 250px;
 	width: auto;
-	height: auto;	
+	height: auto;
 }
 .navbar {
-	padding: 0;	
+	padding: 0;
 }
 .navbar-toggle {
-	display:none;	
+	display:none;
 }
 .navbar-nav {
 	-ms-flex-direction: row;
 	-webkit-flex-direction: row;
- 	flex-direction: row;	
+ 	flex-direction: row;
 }
 .navbar-nav li {
-	margin-left: 40px;	
+	margin-left: 40px;
 }
 .navbar-nav li a {
 	color:#fff;
 	text-transform:uppercase;
-	font-size:15px;	
+	font-size:15px;
 	text-decoration:none;
 	display:block;
 }
@@ -410,7 +410,7 @@ figure {
 03. FOOTER CSS
 ================================================*/
 #footer {
-	padding:20px 0;	
+	padding:20px 0;
 	position: fixed;
 	left:0;
 	right:0;
@@ -418,23 +418,23 @@ figure {
 	z-index:99;
 }
 .footer-row {
-	display: -webkit-box; 
-	display: -webkit-flex; 
-	display: -ms-flexbox; 
-	display: flex; 
-	-webkit-box-align: center; 
-	-webkit-align-items: center; 
-	-ms-flex-align: center; 
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
 	align-items: center;
 }
 .social-icons {
-	margin:0; 
+	margin:0;
 	padding:0;
 	list-style:none;
-	display: -webkit-box; 
-	display: -webkit-flex; 
-	display: -ms-flexbox; 
-	display: flex; 
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
 }
 .social-icons li a {
 	width:36px;
@@ -449,19 +449,19 @@ figure {
 	font-size:18px;
 }
 .social-icons li a:hover {
-	color:#fff;	
+	color:#fff;
 }
 .footer-right {
 	margin-left:auto;
 	font-size:14px;
-	opacity:0.65;	
+	opacity:0.65;
 }
 .subscribe-row {
 	position:absolute;
 	left:0;
 	bottom:0;
 	width:100%;
-	background:#fff;	
+	background:#fff;
 	color:#222;
 	text-align:left;
 	padding:30px;
@@ -471,21 +471,21 @@ figure {
 }
 #footer.open .subscribe-row {
 	-webkit-transform:translateY(0);
-	transform:translateY(0);	
+	transform:translateY(0);
 }
 .subscribe-row p {
 	margin:0;
-	font-size:15px;	
+	font-size:15px;
 	line-height:1.2;
 }
 .subscribe-row h5 {
-	margin-bottom: 8px;	
+	margin-bottom: 8px;
 }
 .subscribe-row .input-field {
-	margin:0;	
+	margin:0;
 }
 .subscribe-row .btn {
-	width:100%;	
+	width:100%;
 }
 .btn-subscribe {
 	margin-left: 5px;
@@ -508,28 +508,28 @@ figure {
 	margin: -1px auto 0;
 	left:0;
 	right:0;
-	background:#222; 
-	position:absolute;	
+	background:#222;
+	position:absolute;
 	-webkit-transform:rotate(45deg);
 	transform:rotate(45deg);
 }
 .close-btn:after {
 	-webkit-transform:rotate(-45deg);
-	transform:rotate(-45deg);	
+	transform:rotate(-45deg);
 }
 .close-btn:hover {
-	background: #222;	
+	background: #222;
 }
 .close-btn:hover:after, .close-btn:hover:before {
-	background:#fff;	
+	background:#fff;
 }
 .close-subscribe {
 	position:absolute;
 	left:50%;
 	top:0;
 	margin-top:-3px;
-	-webkit-transform:translate(-50%, -50%);	
-	transform:translate(-50%, -50%);	
+	-webkit-transform:translate(-50%, -50%);
+	transform:translate(-50%, -50%);
 }
 
 /*==============================================
@@ -537,7 +537,7 @@ figure {
 ================================================*/
 .welcome-box {
 	font-size:20px;
-	line-height:1.7;	
+	line-height:1.7;
 }
 .welcome-box p {
 	max-width: 620px;
@@ -548,7 +548,7 @@ figure {
 	font-weight: 900;
 	font-size: 130px;
 	margin-bottom: 40px;
-	letter-spacing:0.02em;	
+	letter-spacing:0.02em;
 }
 .welcome-title span {
 	font-size:32px;
@@ -562,17 +562,17 @@ figure {
 	background:#fff;
 	width:100px;
 	height:4px;
-	margin:5px auto 0;	
+	margin:5px auto 0;
 }
 .welcome-box .btn {
-	margin-top: 10px;	
+	margin-top: 10px;
 }
 
 /*==============================================
 05. ABOUT BLOCK CSS
 ================================================*/
 .about-img {
-	margin-right: 30px;	
+	margin-right: 30px;
 	position:relative;
 	display:table;
 }
@@ -592,14 +592,14 @@ figure {
 	right:20px;
 	top:20px;
 	bottom:20px;
-	opacity:0.2;	
+	opacity:0.2;
 }
 .about-img img {
 	border-radius:10px;
 }
 .about-contentbox {
 	text-align:left;
-	line-height:1.8;	
+	line-height:1.8;
 }
 .counter-box {
 	border: 2px solid rgba(255,255,255,0.5);
@@ -610,14 +610,14 @@ figure {
 	margin:8px 0;
 	border-radius:10px;
 	background:rgba(0,0,0,0.1);
-	
+
 }
 .counter-box:hover {
 	background:#fff;
 	color:#222;
 }
 .count-number, .counted {
-	display:inline-block;	
+	display:inline-block;
 	font-size:36px;
 	font-weight:700;
 	line-height:1;
@@ -626,7 +626,7 @@ figure {
 }
 
 .countext {
-	display: inline-block;	
+	display: inline-block;
 	font-size:36px;
 	font-weight:700;
 	line-height:0;
@@ -639,13 +639,13 @@ figure {
 06. SERVICES BLOCK CSS
 ================================================*/
 .title-block {
-	margin-bottom: 40px;	
+	margin-bottom: 40px;
 }
 .title-block p {
 	max-width:740px;
 	width:100%;
 	margin:0 auto;
-	line-height:2;	
+	line-height:2;
 }
 .service-icon {
 	display:block;
@@ -656,10 +656,10 @@ figure {
 	margin:0 auto 20px;
 	border-radius:50%;
 	color:#222;
-	font-size:40px;	
+	font-size:40px;
 }
 .service-box {
-	font-size:15px;	
+	font-size:15px;
 	background:rgba(0,0,0,0.15);
 	padding:40px 20px;
 	border-radius:10px;
@@ -667,24 +667,24 @@ figure {
 }
 .service-box h3 {
 	font-size:20px;
-	font-weight:600;	
+	font-weight:600;
 	margin-bottom:15px;
 	padding:10px;
 	background:rgba(0,0,0,0.1);
 	border-radius:6px;
 }
 .service-box p:last-child {
-	margin:0;	
+	margin:0;
 }
 .owl-nav {
-	display: -webkit-box; 
-	display: -webkit-flex; 
-	display: -ms-flexbox; 
-	display: flex; 
-	-ms-flex-pack: center; 
-	-webkit-justify-content: center; 
-	justify-content: center;	
-	margin:35px 0 0;	
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	margin:35px 0 0;
 }
 .owl-nav > button {
 	width:50px;
@@ -696,7 +696,7 @@ figure {
 	text-indent:-999em;
 }
 .owl-nav > button:focus {
-	outline: none;	
+	outline: none;
 }
 .owl-nav > button:after {
 	content:'';
@@ -717,7 +717,7 @@ figure {
 	left:14px;
 }
 .owl-nav > button:hover {
-	background:#fff !important;	
+	background:#fff !important;
 }
 .owl-nav > button:hover:after {
 	border-color:#222;
@@ -727,12 +727,12 @@ figure {
 07. WORK BLOCK CSS
 ================================================*/
 .gallery-box {
-	display:block;	
+	display:block;
 	position:relative;
 	text-align:center;
 	border-radius:10px;
 	overflow:hidden;
-	background:#000;	
+	background:#000;
 }
 .gallery-overlay {
 	position:absolute;
@@ -740,26 +740,26 @@ figure {
 	right:0;
 	top:0;
 	bottom:0;
-	display: -webkit-box; 
-	display: -webkit-flex; 
-	display: -ms-flexbox; 
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	-ms-flex-direction: column; 
-	-webkit-flex-direction: column; 
+	-ms-flex-direction: column;
+	-webkit-flex-direction: column;
 	flex-direction: column;
-	-ms-flex-pack: center; 
-	-webkit-justify-content: center; 
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
 	justify-content: center;
 }
 .gallery-overlay h4 {
 	margin:20px;
 }
 .gallery-img img {
-	opacity:0.7;	
+	opacity:0.7;
 }
 .gallery-box:hover .gallery-img img {
 	-webkit-transform: scale(1.1) rotate(4deg);
-	transform: scale(1.1) rotate(4deg);	
+	transform: scale(1.1) rotate(4deg);
 	opacity:0.5;
 }
 
@@ -789,7 +789,7 @@ figure {
 	height: 64px;
 	color:#fff;
 	border: 2px solid rgba(255,255,255,0.3);
-	background:rgba(0,0,0,0.12);	
+	background:rgba(0,0,0,0.12);
 	border-radius:8px;
 	padding:4px 22px;
 	font-size:16px;
@@ -797,13 +797,13 @@ figure {
 }
 .form-control:focus {
 	box-shadow:none;
-	outline:none;	
+	outline:none;
 	background:rgba(0,0,0,0.25);
 	border: 2px solid rgba(255,255,255,0.5);
-	color:#fff;	
+	color:#fff;
 }
 .form-control.form-control-dark {
-	background: rgba(0,0,0,0.05);	
+	background: rgba(0,0,0,0.05);
 	border-color: rgba(0,0,0,0.15);
 	color: #222;
 }
@@ -824,7 +824,7 @@ figure {
 	opacity:0.7;
 }
 textarea.form-control {
-	height:123px;	
+	height:123px;
 	padding-top:15px;
 }
 .contact-section .btn {
@@ -836,10 +836,10 @@ textarea.form-control {
 	background:rgba(0,0,0,0.12);
 	height:100%;
 	border-radius:8px;
-	padding:40px 45px;	
+	padding:40px 45px;
 }
 .contact-box h4 {
-	font-size:24px;	
+	font-size:24px;
 }
 .contact-box h4:after {
 	content:'';
@@ -850,36 +850,36 @@ textarea.form-control {
 	margin:12px 0;
 }
 .contact-row {
-	display: -webkit-box; 
-	display: -webkit-flex; 
-	display: -ms-flexbox; 
-	display: flex; 
-	-webkit-box-align: center; 
-	-webkit-align-items: center; 
-	-ms-flex-align: center; 
-	align-items: center;	
-	margin-top:30px;	
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-top:30px;
 }
 .contact-row i {
 	width:55px;
-	font-size:44px;	
+	font-size:44px;
 	display:block;
 }
 .contact-row i.fa-envelope {
-	font-size:36px;	
+	font-size:36px;
 }
 
 /*==============================================
 09. TESTIMONOALS BLOCK CSS
 ================================================*/
 .testimonials-section {
-	padding-top:20px;	
+	padding-top:20px;
 	text-align:left;
 	font-size:15px;
 }
 .owl-carousel .owl-item .client-img img {
 	width:auto;
-	border-radius:50%;	
+	border-radius:50%;
 	max-width:90px;
 	margin-right:20px;
 }
@@ -892,16 +892,16 @@ textarea.form-control {
 	position:relative;
 }
 .testimonial-content p:last-child {
-	margin:0;	
+	margin:0;
 }
 .client-row {
-	display: -webkit-box; 
-	display: -webkit-flex; 
-	display: -ms-flexbox; 
-	display: flex; 
-	-webkit-box-align: center; 
-	-webkit-align-items: center; 
-	-ms-flex-align: center; 
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
 	align-items: center;
 	padding-left:10px;
 }
@@ -920,24 +920,24 @@ textarea.form-control {
 	font-weight:700;
 }
 .owl-carousel .owl-dots {
-	display: -webkit-box; 
-	display: -webkit-flex; 
-	display: -ms-flexbox; 
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	-ms-flex-pack: center; 
-	-webkit-justify-content: center; 
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
 	justify-content: center;
-	margin-top:50px; 	
+	margin-top:50px;
 }
 .owl-carousel .owl-dots .owl-dot {
 	width: 12px;
 	height:12px;
 	margin:0 5px;
-	border-radius:50%;	
+	border-radius:50%;
 	background:rgba(0,0,0,0.3);
 }
 .owl-carousel .owl-dots .owl-dot:focus {
-	outline:none;	
+	outline:none;
 }
 .owl-carousel .owl-dots .owl-dot.active {
 	background: rgba(255,255,255,0.5);
@@ -963,18 +963,18 @@ textarea.form-control {
 	-webkit-transition:all 1.5s ease;
 	transition:all 1.5s ease;
 	width:0;
-	height:100%;	
+	height:100%;
 	position:relative;
 }
 .progress-value {
 	position:absolute;
 	left:0;
 	top:0;
-	height:100%;	
+	height:100%;
 	background: #fff;
 }
 .view .progress-bar-value {
-	width: 100%;	
+	width: 100%;
 }
 .progress-value em {
 	position:absolute;
@@ -984,7 +984,7 @@ textarea.form-control {
 	width:40px;
 	line-height:24px;
 	font-size:12px;
-	border-radius:3px;	
+	border-radius:3px;
 	background:#fff;
 	color:#222;
 	font-weight:400;
@@ -1024,7 +1024,7 @@ textarea.form-control {
 	top:0;
 	height:100%;
 	width:100%;
-	z-index:-1;	
+	z-index:-1;
 }
 .fp-bg:after {
 	content:'';
@@ -1032,9 +1032,9 @@ textarea.form-control {
 	left:0;
 	top:0;
 	height:100%;
-	width:100%;	
+	width:100%;
 	opacity:0.6;
-	background:#000;	
+	background:#000;
 }
 /*==============================================
 12. INDEX GRADIENTS PAGE
@@ -1052,7 +1052,7 @@ textarea.form-control {
 	background: -moz-linear-gradient(top, rgba(72,198,239,1) 0%, rgba(111,134,214,1) 100%);
 	background: -webkit-linear-gradient(top, rgba(72,198,239,1) 0%,rgba(111,134,214,1) 100%);
 	background: linear-gradient(to bottom, rgba(72,198,239,1) 0%,rgba(111,134,214,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48c6ef', endColorstr='#6f86d6',GradientType=0 );	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48c6ef', endColorstr='#6f86d6',GradientType=0 );
 	opacity:0.9;
 }
 .gradient-03:after {
@@ -1093,7 +1093,7 @@ textarea.form-control {
 	background: -webkit-linear-gradient(top, rgba(51,160,133,1) 0%,rgba(19,106,138,1) 100%);
 	background: linear-gradient(to bottom, rgba(51,160,133,1) 0%,rgba(19,106,138,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33a085', endColorstr='#136a8a',GradientType=0 );
-	opacity:0.9;	
+	opacity:0.9;
 }
 
 /*==============================================
@@ -1101,7 +1101,7 @@ textarea.form-control {
 ================================================*/
 .bg-slider-img {
 	background-size:cover;
-	background-position:50% 0;	
+	background-position:50% 0;
 }
 .background-slider {
 	position:fixed;
@@ -1112,7 +1112,7 @@ textarea.form-control {
 }
 .bg-slider-img {
 	height:100vh;
-	width:100%;	
+	width:100%;
 }
 .background-slider:after {
 	content:'';
@@ -1122,45 +1122,45 @@ textarea.form-control {
 	width:100%;
 	height:100%;
 	background:#000;
-	opacity:0.5;	
+	opacity:0.5;
 }
 .background-slider .bg-slider-img {
 	-webkit-transition: all 5s ease;
 	transition: all 5s ease;
 }
 .background-slider .active .bg-slider-img {
-	-webkit-transform: scale(1.4);	
-	transform: scale(1.4);	
+	-webkit-transform: scale(1.4);
+	transform: scale(1.4);
 }
 
 /*==============================================
 14.	PROJECT DETAILS PAGE
 ================================================*/
 .detail-page {
-	color:#555;	
+	color:#555;
 }
 .detail-page h1 {
-	color:#222;	
+	color:#222;
 }
 .content-section {
-	min-height: calc(100vh - 106px);	
+	min-height: calc(100vh - 106px);
 	padding:80px 0;
 	background: #fff;
 }
 .detail-page #header {
-	position:relative;	
+	position:relative;
 	background:#222;
 }
 .detail-page #footer {
 	position:relative;
 	background:#222;
-	overflow:hidden;	
+	overflow:hidden;
 }
 .detail-page #footer.open {
-	overflow:inherit;	
+	overflow:inherit;
 }
 .detail-page #footer .subscribe-row {
-	border-top: 2px solid rgba(0,0,0,0.15);	
+	border-top: 2px solid rgba(0,0,0,0.15);
 }
 
 .project-detail-col strong {
@@ -1173,10 +1173,10 @@ textarea.form-control {
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 .view-project {
-	margin-top: 20px;	
+	margin-top: 20px;
 }
 .detail-page a {
-	color:#138b4f;	
+	color:#138b4f;
 }
 .tag-btn, .detail-page a.tag-btn {
 	font-size: 12px;
@@ -1196,7 +1196,7 @@ textarea.form-control {
 }
 .btn.btn-dark {
 	color:#fff;
-	background:#222;	
+	background:#222;
 }
 .btn.btn-view {
 	font-size:14px;
@@ -1208,46 +1208,46 @@ textarea.form-control {
 	width:100%;
 	margin:30px 0 0;
 	padding-bottom:20px;
-	border-bottom:1px dashed rgba(0,0,0,0.5);	
+	border-bottom:1px dashed rgba(0,0,0,0.5);
 }
 .info-inner p {
-	margin:0;	
+	margin:0;
 }
 .project-images {
-	margin-top: 50px;	
+	margin-top: 50px;
 }
 .detail-page .footer-right {
 	color: #fff;
-	padding:1;	
+	padding:1;
 }
 .particles-section {
 	position:relative;
-	z-index:1;	
-}
-.video-section { 
-	position: relative;
-	height: 100%; 
-	overflow: hidden;  
 	z-index:1;
 }
-.video-section:after { 
+.video-section {
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+	z-index:1;
+}
+.video-section:after {
 	content: '';
 	position: absolute;
 	background: #0f0f0f;
-	opacity: 0.5; 
-	left: 0; 
-	right: 0; 
-	top: 0; 
-	height: 100%; 
+	opacity: 0.5;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 100%;
 }
-.video-section .video { 
-	background: #0f0f0f; 
-	left: 0; 
-	min-height: 100%; 
-	min-width: 100%; 
-	position: absolute; 
-	top: 0; 
-} 
+.video-section .video {
+	background: #0f0f0f;
+	left: 0;
+	min-height: 100%;
+	min-width: 100%;
+	position: absolute;
+	top: 0;
+}
 
 /*================================================
              6. FEATURES SECTION
@@ -1261,7 +1261,7 @@ textarea.form-control {
 }
 .features-wrap h3 {
     text-align: center;
-    
+
     font-size: 12px;
 }
 
@@ -1287,4 +1287,9 @@ textarea.form-control {
 .featuresslide .owl-dots {
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+img.resizemain {
+  max-width:50%;
+  max-height:50%;
 }
