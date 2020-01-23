@@ -1,610 +1,75 @@
-﻿<!DOCTYPE html>
+---
+---
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<!--Title-->
-<meta charset="utf-8">
-<meta name="description" content="Official site of PitchBlack Recovery Project also knows as PBRP. It's a TWRP based open source custom recovery for Android. Officially supported devices are Xiaomi Redmi 3(ido), 3S/X(land), 4a(riva),5(rosy), 5a(riva), Note 3 SD/SE(kenzo/kate), Note 4X/SD(mido), Note 5(whyred), Note 5a(ugglite), Note 5a Prime(ugg), MI 6X(wayne), MI A2(jasmine), LYF Water 8(mobee01a).">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PitchBlack Recovery Project - A Custom Recovery For Android</title>
-<link rel="icon" href="images/PBRP_icon.png" type="image/png" sizes="32x32">
-<meta name="author" content="PBRP">
-<!--OG Meta Tags-->
-<meta property="og:title" content="PitchBlack Recovery Project"/>
-<meta property="og:type" content="website"/>
-<meta property="og:image" content="https://github.com/PitchBlackRecoveryProject/PitchBlackRecoveryProject.github.io/raw/master/images/PBRP_sharp.png"/>
-<meta property="og:url" content="https://pbrp.ml/" />
-<meta property="og:site_name" content="PitchBlack Recovery Project"/>
-<meta property="og:description" content="An Open Source Custom Recovery For Android"/>
-<meta name="twitter:card" content="summary">
-<!-- description -->
-<!--fonts-->
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900" rel="stylesheet">
-<!-- Google Fonts -->
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-<!-- Font Awesome CSS -->
-<link rel="stylesheet" type="text/css" href="css/fullpage.min.css">
-<!-- fullpage CSS -->
-<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-<!-- slider CSS -->
-<link rel="stylesheet" href="css/animate.css">
-<!-- Animations CSS -->
-<link rel="stylesheet" href="css/style.css">
-<!-- Style CSS -->
-<link rel="stylesheet" href="css/responsive.css">
-<!-- Responsive CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="icon" href="images/PBRP_icon.png" type="image/png" sizes="32x32">
+    <meta name="author" content="{{ site.author }}">
+    <!-- OG Meta Tags -->
+    {% include og-meta.html %}
+    <!-- Fonts and Styles -->
+    {% include head-css.html %}
 </head>
 <body>
-<div id="wrapper">
-	<div class="preloader">
-    	<div class="preloader-bounce">
-            <span></span>
-			<span></span>
-			<span></span>
+    <div id="wrapper">
+        <div class="preloader">
+            <div class="preloader-bounce">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <h3>Booting Up PitchBlack Recovery Project</h3>
         </div>
-        <h3>Booting up PitchBlack Recovery Project</h3>
-    </div>
-	<!--HEADER START-->
-	<header id="header">
-		<div class="container-fluid">
-			<div class="navbar">
-				<a href="#" id="logo" title="PitchBlack Recovery Project">
-					<img class="resize50" src="images/logo.png" alt="PitchBlack Recovery Project/">
-				</a>
-				<div class="navigation-row">
-					<nav id="navigation">
-						<button type="button" class="navbar-toggle"> <i class="fa fa-bars"></i> </button>
-						<div class="nav-box navbar-collapse">
-							<ul class="navigation-menu nav navbar-nav navbars" id="nav">
-								<li data-menuanchor="home" class="active"><a href="#home">Home</a></li>
-								<li data-menuanchor="about"><a href="#about">About PBRP</a></li>
-								<li data-menuanchor="team"><a href="#team">Our Team</a></li>
-								<li data-menuanchor="features"><a href="#features">Features</a></li>
-								<li data-menuanchor="downloads"><a href="#downloads">Downloads</a></li>
-								<!--
-								<li data-menuanchor="downloads"><a href="#downloads">Testimonials</a></li>
-								<li data-menuanchor="contact"><a href="#contact">Work</a></li>
-								-->
-								<li data-menuanchor="contact"><a href="#contact">Contact Us</a></li>
-							</ul><!--/.navigation-menu-->
-						</div><!--/.nav-box-->
-					</nav><!--/#navigation-->
-				</div><!--/.navigation-row-->
-			</div><!--/.navbar-->
-		</div><!--/.container-->
-	</header><!--/#header-->
-	<!--HEADER END-->
-
-	<div class="wrapper-background" style="background-image:url(images/bg.png);">
-		<div class="particles-section">
-				<div id="particles-js"></div>
-			</div><!--/.particles-section-->
-	</div>
-
-	<!--MAIN SECTION START-->
-	<div id="fullpage" class="fullpage-default">
-		<div class="section fp-auto-height-responsive animated-row" data-section="home">
-			<div class="section-inner">
-				<div class="welcome-box">
-					<h1 class="welcome-title animate" data-animate="fadeInUp"><span>Welcome to</span>PitchBlack <span>Recovery Project</span></h1>
-					<p class="animate" data-animate="fadeInUp">PitchBlack Recovery is a fork of TWRP with many improvements to make your experience better.</p>
-					<span class="btn next-section animate" data-animate="fadeInUp">Download Now</span>
-				</div><!--/.welcome-box-->
-			</div><!--/.section-inner-->
-		</div><!--/.section-->
-		<div class="section fp-auto-height-responsive animated-row" data-section="about"> <!--/.about-->
-			<div class="section-inner">
-				<div class="about-section">
-					<div class="row justify-content-center">
-						<div class="col-lg-8 wide-col-laptop">
-							<div class="row">
-								<div class="col-md-6">
-									<figure class="about-img animate" data-animate="fadeInUp"><img src="images/PBRP_icon.png" alt=""></figure>
-								</div>
-								<div class="col-md-6">
-									<div class="about-contentbox">
-										<div class="animate" data-animate="fadeInUp">
-											<h2>About PBRP</h2>
-											<p>Pitch Black Recovery was started in March 18 2018 with the movement to enhance TWRP with better customizatons, themes and features.</p>
-										</div>
-										<div class="facts-row animate" data-animate="fadeInUp">
-											<div class="row">
-												<div class="col-sm-6">
-													<div class="counter-box">
-														<span class="count-number">50</span><span class="countext">+</span><!--/.count-number-->
-														<br> Repositories
-													</div><!--/.counter-box-->
-												</div><!--/.col-->
-												<div class="col-sm-6">
-													<div class="counter-box">
-														<span class="count-number">30</span><span class="countext">+</span><!--/.count-number-->
-                                                        <br> Official Devices
-													</div><!--/.counter-box-->
-												</div><!--/.col-->
-												<div class="col-sm-6">
-													<div class="counter-box">
-														<span class="count-number">150</span><span class="countext">K+</span><!--/.count-number-->
-														  <br> Downloads
-													</div><!--/.counter-box-->
-												</div><!--/.col-->
-												<div class="col-sm-6">
-													<div class="counter-box">
-														<span class="count-number">50</span><span class="countext">+</span><!--/.count-number-->
-														 <br> Releases
-													</div><!--/.counter-box-->
-												</div><!--/.col-->
-											</div><!--/.row-->
-										</div>
-									</div><!--/.about-contentbox-->
-								</div>
-							</div><!--/.row-->
-						</div>
-					</div><!--/.row-->
-				</div><!--/.about-section-->
-			</div><!--/.section-inner-->
-
-		</div><!--/.section-->
-
-
-		<div class="section fp-auto-height-responsive animated-row" data-section="team"> <!--/.Our Team-->
-			<div class="section-inner">
-				<div class="row justify-content-center">
-					<div class="col-md-8 wide-col-laptop">
-						<div class="title-block animate" data-animate="fadeInUp">
-							<h2>Meet Our Team</h2>
-						</div><!--/.title-block-->
-						<div class="services-section">
-							<div class="services-list owl-carousel">
-								<div class="container-fluid item animate" data-animate="fadeInUp">
-									<div class="container-fluid service-box">
-										<span class="service-icon"><img class="img-rounded" src= "images/dev1.jpg" alt="Dev1"/></span>
-										<h3>Reza Adi Pangestu</h3>
-										<p>Founder of PBRP.<br>Theming King<br>UI/UX Developer at PBRP</p>
-										<a href="https://t.me/Reza_Adi_Pangestu"><i class="fa fa-telegram fa-3x"></i></a>
-									</div><!--/.service-box-->
-								</div><!--/.item-->
-								<div class="container-fluid item animate" data-animate="fadeInUp">
-									<div class="container-fluid service-box">
-										<span class="service-icon"><img class="img-rounded" src= "images/firewolf_animated.gif" alt="Firewolf"/></span>
-										<h3>Firewolf<br>🇧🇩</h3>
-										<p>Co-Founder of PBRP.<br>UI/UX Developer at PBRP.<br>From Bangladesh.</p>
-										<a href="https://t.me/firewolfxda"><i class="fa fa-telegram fa-3x"></i></a>
-									</div>
-								</div><!--/.item-->
-								<div class="container-fluid item animate" data-animate="fadeInUp">
-									<div class="container-fluid service-box">
-										<span class="service-icon"><img class="img-rounded" src= "images/dev3.jpg" alt="Dev3"/></span>
-										<h3>Manjot Sidhu</h3>
-										<p>Co-Founder of PBRP.<br>Project Manager and Full stack developer.</p>
-										<a href="https://t.me/manjotsidhu"><i class="fa fa-telegram fa-3x"></i></a>
-									</div>
-								</div><!--/.item-->
-
-								<div class="container-fluid item animate" data-animate="fadeInUp">
-									<div class="container-fluid service-box">
-										<span class="service-icon"><img class="img-rounded" src= "images/dev4.jpg" alt="Dev4"/></span>
-										<h3>Mohd Faraz</h3>
-										<p>Main Developer at PBRP.<br>#TeamODonors #TeamNature #insta @androiabledroid and a Noob Developer 😉😉😉😎</p>
-										<a href="https://t.me/ANDROIABLEDROID"><i class="fa fa-telegram fa-3x"></i></a>
-									</div>
-								</div><!--/.item-->
-								<div class="container-fluid item animate" data-animate="fadeInUp">
-									<div class="container-fluid service-box">
-										<span class="service-icon"><img class="img-rounded" src= "images/dev5.jpg" alt="Dev5"/></span>
-										<h3>Arbaz Khan</h3>
-										<p>Jack of all trades, master of none, but better than a master of one</p>
-										<a href="https://t.me/papa_ka_prince"><i class="fa fa-telegram fa-3x"></i></a>
-									</div>
-								</div><!--/.item-->
-							</div><!--/.services-list-->
-						</div><!--/.services-section-->
-					</div>
-				</div>
-			</div><!--/.section-inner-->
-		</div><!--/.section-->
-
-		<div class="section fp-auto-height-responsive animated-row" data-section="features"> <!--/.features-->
-			<div class="section-inner">
-				<div class="row justify-content-center">
-					<div class="col-md-7 wide-col-laptop">
-						<div class="title-block animate" data-animate="fadeInUp">
-							<h2>Features</h2>
-						</div><!--/.title-block-->
-								<div class="container">
-					            <div class="row wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
-					                <!--col-md-12-->
-					                <div class="col-md-6 col-lg-4 features-text">
-					                    <div class="features-wrap">
-					                        <div class="features-content">
-					                            <h3 style="margin-bottom: 2px;">Supports MIUI OTA Updates</h3>
-					                        </div>
-					                        <!--features-content-->
-					                    </div>
-					                    <!--features-wrap-->
-					                    <div class="features-wrap">
-					                        <div class="features-content">
-					                            <h3 style="margin-bottom: 2px;">Supports Treble and non-Treble ROMs</h3>
-					                        </div>
-					                        <!--features-content-->
-					                    </div>
-					                    <!--features-wrap-->
-					                    <div class="features-wrap">
-					                        <div class="features-content">
-					                            <h3 style="margin-bottom: 2px;">Full dark theme with changeable accents & texts</h3>
-					                        </div>
-					                        <!--features-content-->
-					                    </div>
-					                    <div class="features-wrap">
-					                        <div class="features-content">
-					                            <h3 style="margin-bottom: 2px;">Use AromaFM as default file manager</h3>
-					                        </div>
-					                    </div>
-					                    <!--features-wrap-->
-					                    <div class="features-wrap">
-					                        <div class="features-content">
-					                            <h3 style="margin-bottom: 2px;">Always up-to date</h3>
-					                        </div>
-					                    </div>
-					                    <!--features-wrap-->
-					                </div>
-					                <!--col-md-6-->
-					                <div class="col-md-4 col-lg-4 hidden-md-down">
-                                        <div class="owl-carousel owl-theme animated-row featuresslide"> <!--features screenshots-->
-                                            <div class="item"><img class="img" src="images/ss_homes.png" alt="Colors"></div>
-                                            <div class="item"><img class="img" src="images/ss_home.png" alt="Home"></div>
-                                            <div class="item"><img class="img" src="images/ss_adv.png" alt="Advanced"></div>
-                                            <div class="item"><img class="img" src="images/ss_tools.png" alt="Tools"></div>
-                                            <div class="item"><img class="img" src="images/ss_set.png" alt="Settings"></div>
-                                            <div class="item"><img class="img" src="images/ss_themes.png" alt="Themes"></div>
-                                            </div>
-					                    <!--features-img-->
-					                </div>
-					                <!--col-md-4-->
-					                <div class="col-md-6 col-lg-4 features-text">
-					                    <div class="features-wrap">
-					                        <div class="features-content">
-					                            <h3 style="margin-bottom: 2px;">Always Up-To-Date with Android Pie</h3>
-					                        </div>
-					                        <!--features-content-->
-					                    </div>
-					                    <!--features-wrap-->
-					                    <div class="features-wrap">
-					                        <div class="features-content">
-					                            <h3 style="margin-bottom: 2px;">Reorganized menus</h3>
-					                        </div>
-					                        <!--features-content-->
-					                    </div>
-					                    <!--features-wrap-->
-					                    <div class="features-wrap">
-					                        <div class="features-content">
-					                            <h3 style="margin-bottom: 2px;">Misc Tools Included</h3>
-					                        </div>
-					                        <!--features-content-->
-					                    </div>
-					                    <div class="features-wrap">
-					                        <div class="features-content">
-					                            <h3 style="margin-bottom: 2px;">Universal flash-able file for all variant of a device</h3>
-					                        </div>
-					                    </div>
-					                    <!--features-wrap-->
-					                    <div class="features-wrap">
-					                        <div class="features-content">
-					                            <h3 style="margin-bottom: 2px;">Multilingual</h3>
-					                        </div>
-					                    </div>
-					                    <!--features-wrap-->
-					                </div>
-					                <!--col-md-6-->
-					            </div>
-					            <!--row-->
-					        </div>
-					        <!--container-->
-					</div>
-				</div>
-			</div><!--/.section-inner-->
-		</div><!--/.section-->
-
-
-		<div class="section fp-auto-height-responsive animated-row" data-section="downloads"> <!--/.downloads-->
-			<div class="section-inner">
-				<div class="row justify-content-center">
-					<div class="col-md-8">
-						<div class="title-block animate" data-animate="fadeInUp">
-							<h2>Downloads</h2>
-						</div><!--/.title-block-->
-						<div class = "table-responsive">
-						<table class = "table table-sm table-dark table-bordered text-light table-striped ">
-                            <tr>
-                                <th>Device</th>
-                                <th>Maintainer</th>
-                                <th>Latest version</th>
-                                <th>Mirror(s)</th>
-                            </tr>
-                            <tr>
-                                <td>Xiaomi Redmi 3 (ido)</td>
-                                <td>Firewolf</td>
-                                <td>2.9.0</td>
-				<td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/ido/"><img class="img"alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a></td>
-			    </tr>
-                            <tr>
-                                <td>Xiaomi Redmi 3S/X (land)</td>
-                                <td>Drop Maintainer</td>
-                                <td>2.8.1</td>
-                                <td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/land/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a></td>
-                            </tr>
-                            <tr>
-                                <td>Xiaomi Redmi 4a (rolex)</td>
-                                <td>Mohd Faraz</td>
-                                <td>2.9.0</td>
-                                <td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/rolex/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a></td>
-                            </tr>
-                             <tr>
-                                <td>Xiaomi Redmi 5 (rosy)</td>
-                                <td>ZHANtech™ | BATIK HOLIC</td>
-                                <td>2.9.0</td>
-                                <td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/Rosy/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a></td>
-                            </tr>
-                             <tr>
-                                <td>Xiaomi Redmi 5a (riva)</td>
-                                <td>Drop Maintainer</td>
-                                <td>2.8.1</td>
-                                <td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/Riva/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a></td>
-                            </tr>
-                              <tr>
-                                <td>Xiaomi Redmi Note 3 Pro/SD (kenzo)</td>
-                                <td>Amogha Maiya</td>
-                                <td>2.9.0</td>
-                                <td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/kenzo/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a></td>
-                            </tr>
-                             <tr>
-                                <td>Xiaomi Redmi Note 4X/SD (mido)</td>
-                                <td>Drop Maintainer</td>
-                                <td>2.9.0</td>
-                                <td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/mido/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a></td>
-                            </tr>
-                             <tr>
-                                <td>Xiaomi Redmi Note 5 (whyred)</td>
-                                <td>Reza Adi Pangestu</td>
-                                <td>2.9.0</td>
-                                <td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/whyred/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a></td>
-                            </tr>
-			     <tr>
-                                <td>Xiaomi Redmi 5 Plus (vince)</td>
-                                <td>Manish4586</td>
-                                <td>2.9.0</td>
-                                <td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/vince/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a></td>
-                             </tr>
-                              <tr>
-                                <td>Xiaomi Redmi Note 5a (ugglite)</td>
-                                <td>Drop Maintainer</td>
-                                <td>2.9.0</td>
-                                <td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/Ugglite/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a></td>
-                            </tr>
-                             <tr>
-                                <td>Xiaomi Redmi Note 5a Prime (ugg)</td>
-                                <td>Drop Maintainer</td>
-                                <td>2.9.0</td>
-                                <td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/Ugg/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a></td>
-                            </tr>
-			    <tr>
-				<td>Xiaomi Redmi Note 6 Pro (tulip)</td>
-				<td>Drop Maintainer</td>
-				<td>2.9.0</td>
-				<td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/tulip/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a></td>
-			    </tr>
-                            <tr>
-                                <td>Xiaomi MI 6X (wayne)</td>
-                                <td>Wei Kai Kong</td>
-                                <td>2.9.0</td>
-				<td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/wayne/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a>
-                            </tr>
-                            <tr>
-                                <td>Xiaomi MI A2 (jasmine_sprout)</td>
-                                <td>Manish4586</td>
-                                <td>2.9.0</td>
-				<td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/jasmine_sprout/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a>
-                            </tr>
-							    <tr>
-                                <td>Xiaomi MI A2 Lite (daisy)</td>
-                                <td>Manish4586</td>
-                                <td>2.9.0</td>
-				<td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/daisy/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a>
-                            </tr>
-							   <tr>
-                                <td>OnePlus 6 (enchilada)</td>
-                                <td>Manish4586</td>
-                                <td>2.9.0</td>
-				<td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/enchilada/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a>
-                            </tr>
-			    <tr>
-				<td>Xiaomi Pocophone F1 (beryllium)</td>
-				<td>Mohd Faraz</td>
-				<td>2.9.0</td>
-				<td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/beryllium/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a>
-			   </tr>
-			   <tr>
-				<td>Tenor E (e)</td>
-                                <td>Manish4586</td>
-                                <td>2.9.0</td>
-                                <td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/e/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a></td>
-                            </tr>
-                            <tr>
-                                <td>Lenovo A6000 (a6000)</td>
-                                <td>Harshit Jain</td>
-                                <td>2.9.0</td>
-				<td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/a6000/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a>
-                            </tr>
-			    <tr>
-                                <td>Lenovo P2 (kuntao)</td>
-                                <td>Advaith Bhat</td>
-                                <td>2.9.0</td>
-				<td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/kuntao/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a>
-                            </tr>
-			    <tr>
-				<td>Huawei Honor 5X (kiwi)</td>
-				<td>Travis Holt</td>
-				<td>2.9.0</td>
-			        <td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/kiwi/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a></td>
-			   </tr>
-			   <tr>
-                                <td>LYF Water 8 (mobee01a)</td>
-                                <td>Mohd Faraz</td>
-                                <td>2.9.0</td>
-                                <td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/mobee01a/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a></td>
-                            </tr>
-                            <tr>
-                                <td>Asus Zenfone Max (Z010D)</td>
-                                <td>Sakil Mondal</td>
-                                <td>2.9.0</td>
-                                <td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/Z010D/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a></td>
-                            </tr>
-			    <tr>
-                            <td>Asus Zenfone Max Pro M2 (X01BD)</td>
-				<td>legacy</td>
-				<td>2.9.0</td>
-                                <td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/X01BD/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a></td>
-			    </tr>
-			    <tr>
-                            <td>Coolpad Cool 1 Dual (C106)</td>
-				<td>Mustafa Shaikh</td>
-                                <td>2.9.0</td>
-                                <td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/C106/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a></td>
-                            </tr>
-			    <tr>
-                            <td>Asus Zenfone Max Pro M1 (X00T)</td>
-                                <td>Akshat</td>
-				<td>2.9.0</td>
-                                <td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/X00T/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a></td>
-                            </tr>
-			    <tr>
-                            <td>Xiaomi MI 8 Lite (platina)</td>
-				<td>Reza Adi Pangestu</td>
-                                <td>2.9.0</td>
-                                <td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/platina/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a></td>
-                            </tr>
-			    <tr>
-                            <td>Motorola E5 Plus (hannah)</td>
-				<td>Barry Allen</td>
-                                <td>2.9.0</td>
-                                <td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/hannah/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a></td>
-			    </tr>	
-                            <tr>
-                                <td>PC Installer</td>
-                                <td>PBRP Team</td>
-                                <td>1.1</td>
-				<td><a href="https://sourceforge.net/projects/pitchblack-twrp/files/Utilities/Installer/"><img class="img" alt="SourceForge" src="https://a.fsdn.com/con/app/sf-download-button" srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a></td>
-                            </tr>
-
-                     </table>
+        <!--HEADER START-->
+        {% include header.html %}
+        <!--HEADER END-->
+        <div class="wrapper-background" style="background-image:url(images/bg.png);">
+            <div class="particles-section">
+                <div id="particles-js"></div>
+            </div>
+            <!--/.particles-section-->
+        </div>
+        <!--MAIN SECTION START-->
+        <div id="fullpage" class="fullpage-default">
+            <div class="section fp-auto-height-responsive animated-row" data-section="home">
+                <div class="section-inner">
+                    <div class="welcome-box">
+                        <h1 class="welcome-title animate" data-animate="fadeInUp"><span>Welcome to </span>PitchBlack
+                            <span>Recovery Project</span></h1>
+                        <p class="animate" data-animate="fadeInUp">PitchBlack Recovery is a fork of TWRP with many
+                            improvements to make your experience better.</p>
+                        <span class="btn next-section animate" data-animate="fadeInUp">Download Now</span>
                     </div>
-					</div>
-				</div>
-			</div><!--/.section-inner-->
-		</div><!--/.section-->
-
-
-		<div class="section fp-auto-height-responsive animated-row" data-section="contact">  <!--/.contact us-->
-			<div class="section-inner">
-				<div class="row justify-content-center">
-					<div class="col-md-7 wide-col-laptop">
-						<div class="title-block animate" data-animate="fadeInUp">
-							<h2>Contact us</h2>
-							<p></p>
-						</div><!--/.title-block-->
-						<div class="contact-section">
-							<div class="row">
-								<div class="col-md-6 animate" data-animate="fadeInUp">
-								<form action="https://formspree.io/pitchblackrecovery@gmail.com" method="POST">
-									<div class="input-field">
-										<input type="text" class="form-control" placeholder="Name" name="Name" required>
-									</div><!--/.input-field-->
-									<div class="input-field">
-										<input type="email" class="form-control" placeholder="Email" name="Email" required>
-									</div><!--/.input-field-->
-									<div class="input-field">
-										<textarea class="form-control" placeholder="Message" name="Message" required></textarea>
-									</div><!--/.input-field-->
-									<button class="btn" type="submit">Submit</button>
-								</form>
-								</div>
-								<div class="col-md-6 animate" data-animate="fadeInUp">
-									<div class="contact-box">
-										<h4>Connect with us</h4>
-										<div class="contact-row">
-											<i class="fa fa-telegram"></i><div class="column"><a href="https://t.me/pbtwrp">Official Channel</a><br><a href="https://t.me/pbrpcom">Community Group</a>
-										</div></div><!--/.contact-row-->
-
-										<div class="contact-row">
-											<i class="fa fa-github"></i><a href="https://github.com/PitchBlackRecoveryProject">@PitchBlackRecoveryProject</a>
-										</div><!--/.contact-row-->
-
-
-										<div class="contact-row">
-											<i class="fa fa-envelope"></i><a href="mailto:pitchblackrecovery@gmail.com">pitchblackrecovery@gmail.com</a>
-										</div><!--/.contact-row-->
-									</div><!--/.contact-box-->
-								</div>
-							</div>
-						</div><!--/.contact-section-->
-					</div>
-				</div>
-			</div><!--/.section-inner-->
-		</div><!--/.section-->
-	</div><!--/#main-->
-	<!--MAIN SECTION END-->
-
-	<!--FOOTER START-->
-	<footer id="footer">
-		<div class="container-fluid">
-			<div class="footer-row">
-				<ul class="social-icons">
-				   <li><a href="https://github.com/PitchBlackRecoveryProject" title="GitHub"><i class="fa fa-github"></i></a></li>
-                    <li><a href="https://t.me/pbrpcom" title="Telegram"><i class="fa fa-telegram"></i></a></li>
-					<li><a href="https://web.facebook.com/pbrpofficial" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-					<li><a href="https://sourceforge.net/projects/pitchblack-twrp" title="SourceForge"><img src="images/sf_icon.png" width="32" height="32" alt="SourceForge"></a></li>
-				</ul><!--/.social-icons-->
-				<div class="subscribe-section">
-					<a href="#" class="btn btn-xs btn-outline btn-subscribe">Subscribe</a>
-					<div class="subscribe-row">
-						<div class="row align-items-center">
-							<div class="col-lg-3 container">
-								<h5>Subscribe to our Newsletters</h5>
-								<p>Get Latest News, Information, Notifications & Announcements</p>
-							</div>
-							<div class="col-lg-3 col-md-4 container">
-								<a class="btn btn-dark" href="https://lists.sourceforge.net/lists/listinfo/pitchblack-twrp-discuss">Subscribe</a>
-							</div>
-						</div>
-						<a href="#" class="close-btn close-subscribe"></a>
-					</div><!--/.subscribe-row-->
-				</div><!--/.subscribe-section-->
-				<div class="footer-right">
-					&copy; 2019 PBRP. All Rights Reserved
-				</div><!--/.footer-right-->
-			</div><!--/.footer-row-->
-		</div><!--/.container-->
-	</footer><!--#/footer-->
-	<!--FOOTER END-->
-</div>
-<!--/#wrapper-->
-<script src="js/jquery.js"></script>
-<!-- Latest jQuery Library File -->
-<script src="js/bootstrap.min.js"></script>
-<!-- Latest Bootstrap -->
-<script src="js/fullpage.min.js"></script>
-<!-- Fullpage js -->
-<script src="js/scrolloverflow.js"></script>
-<!-- Enable scrollbar when more content js -->
-<script src="js/owl.carousel.min.js"></script>
-<!-- slider js -->
-<script src="js/jquery.inview.min.js"></script>
-<script src="js/particles.min.js"></script>
-<script src="js/app.js"></script>
-<!-- Particles JS -->
-<script src="js/general-scripts.js"></script>
-<!-- Main Script -->
+                    <!--/.welcome-box-->
+                </div>
+                <!--/.section-inner-->
+            </div>
+            <!--/.section-->
+            <!-- Include About Section -->
+            {% include about.html %}
+            <!-- Include Team Member Section -->
+            {% include team.html %}
+            <!-- Include Features Section -->
+            {% include features.html %}
+            <!-- Include Downloads Section -->
+            {% include downloads.html %}
+            <!-- Include Contacts Section -->
+            {% include contact.html %}
+        </div>
+        <!--/#main-->
+        <!--MAIN SECTION END-->
+        <!--FOOTER START-->
+        {% include footer.html %}
+        <!--FOOTER END-->
+    </div>
+    <!--/#wrapper-->
+    <!-- Load Javascripts at the end -->
+    {% include foot-js.html %}
 </body>
 </html>

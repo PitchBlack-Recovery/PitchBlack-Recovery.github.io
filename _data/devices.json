@@ -1,0 +1,237 @@
+{
+	"a106": {
+		"name": "Micromax Unite 2",
+		"dev": "x",
+		"ver": "2.6"
+	},
+	"a6000": {
+		"name": "Lenovo A6000",
+		"dev": "Harshit Jain",
+		"ver": "2.9.0"
+	},
+	"beryllium": {
+		"name": "Xiaomi Pocophone F1",
+		"dev": "Mohd Faraz",
+		"ver": "2.9.0"
+	},
+	"C106": {
+		"name": "Coolpad Cool 1 Dual",
+		"dev": "Mustafa Shaikh",
+		"ver": "2.9.0"
+	},
+	"daisy": {
+		"name": "Xiaomi MI A2 Lite",
+		"dev": "Manish4586",
+		"ver": "2.9.0"
+	},
+	"dipper": {
+		"name": "Xiaomi Mi 8",
+		"dev": "x",
+		"ver": "x"
+	},
+	"e": {
+		"name": "Tenor E",
+		"dev": "Manish4586",
+		"ver": "2.9.0"
+	},
+	"enchilada": {
+		"name": "OnePlus 6",
+		"dev": "Manish4586",
+		"ver": "2.9.0"
+	},
+	"G42": {
+		"name": "InFocus G42",
+		"dev": "x",
+		"ver": "2.6"
+	},
+	"hannah": {
+		"name": "Motorola E5 Plus",
+		"dev": "Barry Allen",
+		"ver": "2.9.0"
+	},
+	"ido": {
+		"name": "Xiaomi Redmi 3",
+		"dev": "Firewolf",
+		"ver": "2.9.0"
+	},
+	"jasmine_sprout": {
+		"name": "Xiaomi MI A2",
+		"dev": "Manish4586",
+		"ver": "2.9.0"
+	},
+	"kenzo": {
+		"name": "Xiaomi Redmi Note 3 Pro/SD",
+		"dev": "Amogha Maiya",
+		"ver": "2.9.0"
+	},
+	"kiwi": {
+		"name": "Huawei Honor 5X",
+		"dev": "Travis Holt",
+		"ver": "2.9.0"
+	},
+	"kuntao": {
+		"name": "Lenovo P2",
+		"dev": "Advaith Bhat",
+		"ver": "2.9.0"
+	},
+	"land": {
+		"name": "Xiaomi Redmi 3S/X",
+		"dev": "Droped Maintainer",
+		"ver": "2.8.1"
+	},
+	"laurel": {
+		"name": "Xiaomi Mi A3",
+		"dev": "x",
+		"ver": "x"
+	},
+	"lavender": {
+		"name": "Xiaomi Redmi Note 7",
+		"dev": "x",
+		"ver": "2.9.0"
+	},
+	"lv517": {
+		"name": "LG K20 Plus",
+		"dev": "x",
+		"ver": "2.9.0"
+	},
+	"mido": {
+		"name": "Xiaomi Redmi Note 4X/SD",
+		"dev": "Dropped Maintainer",
+		"ver": "2.9.0"
+	},
+	"mobee01a": {
+		"name": "LYF Water 8",
+		"dev": "Mohd Faraz",
+		"ver": "2.9.0"
+	},
+	"onclite": {
+		"name": "Xiaomi Redmi 7",
+		"dev": "x",
+		"ver": "2.9.0"
+	},
+	"P1m": {
+		"name": "Lenovo Vibe P1m",
+		"dev": "x",
+		"ver": "2.6"
+	},
+	"platina": {
+		"name": "Xiaomi MI 8 Lite",
+		"dev": "Reza Adi Pangestu",
+		"ver": "2.9.0"
+	},
+	"raphael": {
+		"name": "Redmi K20 Pro",
+		"dev": "x",
+		"ver": "2.9.0"
+	},
+	"riva": {
+		"name": "Xiaomi Redmi 5a",
+		"dev": "Dropped Maintainer",
+		"ver": "2.9.0"
+	},
+	"RMX1811": {
+		"name": "Realme C1",
+		"dev": "x",
+		"ver": "2.9.0"
+	},
+	"rmx1821": {
+		"name": "Realme 3",
+		"dev": "x",
+		"ver": "2.9.0"
+	},
+	"RMX1851": {
+		"name": "Realme 3 Pro",
+		"dev": "x",
+		"ver": "2.9.0"
+	},
+	"rolex": {
+		"name": "Xiaomi Redmi 4a",
+		"dev": "Mohd Faraz",
+		"ver": "2.9.0"
+	},
+	"rosy": {
+		"name": "Xiaomi Redmi 5",
+		"dev": "ZHANtech™ - BATIK HOLIC",
+		"ver": "2.9.0"
+	},
+	"santoni": {
+		"name": "Xiaomi Redmi 4X",
+		"dev": "x",
+		"ver": "2.9.0"
+	},
+	"tulip": {
+		"name": "Xiaomi Redmi Note 6 Pro",
+		"dev": "Dropped Maintainer",
+		"ver": "2.9.0"
+	},
+	"ugg": {
+		"name": "Xiaomi Redmi Note 5a Prime",
+		"dev": "Dropped Maintainer",
+		"ver": "2.9.0"
+	},
+	"ugglite": {
+		"name": "Xiaomi Redmi Note 5a",
+		"dev": "Dropped Maintainer",
+		"ver": "2.9.0"
+	},
+	"vince": {
+		"name": "Xiaomi Redmi 5 Plus",
+		"dev": "Manish4586",
+		"ver": "2.9.0"
+	},
+	"violet": {
+		"name": "Xiaomi Redmi Note 7 Pro",
+		"dev": "x",
+		"ver": "2.9.0"
+	},
+	"wayne": {
+		"name": "Xiaomi MI 6X",
+		"dev": "Wei Kai Kong",
+		"ver": "2.9.0"
+	},
+	"whyred": {
+		"name": "Xiaomi Redmi Note 5",
+		"dev": "Reza Adi Pangestu",
+		"ver": "2.9.0"
+	},
+	"X00P": {
+		"name": "Asus ZenFone Max M1",
+		"dev": "x",
+		"ver": "2.9.0"
+	},
+	"X00TD": {
+		"name": "Asus ZenFone Max Pro M1",
+		"dev": "x",
+		"ver": "2.8.1"
+	},
+	"X00T": {
+		"name": "Asus ZenFone Max M1",
+		"dev": "Akshat",
+		"ver": "2.9.0"
+	},
+	"X01AD": {
+		"name": "Asus ZenFone Max M2",
+		"dev": "x",
+		"ver": "2.9.0"
+	},
+	"X01BD": {
+		"name": "Asus Zenfone Max Pro M2",
+		"dev": "Legacy",
+		"ver": "2.9.0"
+	},
+	"Z010D": {
+		"name": "Asus Zenfone Max",
+		"dev": "Sakil Mondal",
+		"ver": "2.9.0"
+	},
+	"z2_plus": {
+		"name": "ZUK Z2 Plus",
+		"dev": "x",
+		"ver": "2.8.1"
+	},
+	"zx55q05": {
+		"name": "LYF Water 7",
+		"dev": "x",
+		"ver": "2.9.0"
+	}
+}

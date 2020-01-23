@@ -1,0 +1,58 @@
+<div class="section fp-auto-height-responsive animated-row" data-section="features">
+                <!--/.features-->
+                <div class="section-inner">
+                    <div class="row justify-content-center">
+                        <div class="col-md-7 wide-col-laptop">
+                            <div class="title-block animate" data-animate="fadeInUp">
+                                <h2>Features</h2>
+                            </div>
+                            <!--/.title-block-->
+                            <div class="container">
+                                <div class="row wow fadeIn" data-wow-delay="0.1s"
+                                    style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+                                    <!--col-md-12-->
+                                    <div class="col-md-6 col-lg-4 features-text">
+                                        {% for feat_l in site.data.features.left %}
+                                        <div class="features-wrap">
+                                            <div class="features-content">
+                                                <h3 style="margin-bottom: 2px;">{{ feat_l }}</h3>
+                                            </div>
+                                            <!--features-content-->
+                                        </div>
+                                        <!--features-wrap-->
+                                        {% endfor %}
+                                    </div>
+                                    <!--col-md-6-->
+                                    <div class="col-md-4 col-lg-4 hidden-md-down">
+                                        <div class="owl-carousel owl-theme animated-row featuresslide">
+                                            <!--features screenshots-->
+                                            {% for ss in site.data.features.ss %}
+                                            <div class="item"><img class="img" src="{{ ss.src }}"
+                                                    alt="{{ ss.text }}"></div>
+                                            {% endfor %}
+                                        </div>
+                                        <!--features-img-->
+                                    </div>
+                                    <!--col-md-4-->
+                                    <div class="col-md-6 col-lg-4 features-text">
+                                        {% for feat_r in site.data.features.right %}
+                                        <div class="features-wrap">
+                                            <div class="features-content">
+                                                <h3 style="margin-bottom: 2px;">{{ feat_r }}</h3>
+                                            </div>
+                                            <!--features-content-->
+                                        </div>
+                                        <!--features-wrap-->
+                                        {% endfor %}
+                                    </div>
+                                    <!--col-md-6-->
+                                </div>
+                                <!--row-->
+                            </div>
+                            <!--container-->
+                        </div>
+                    </div>
+                </div>
+                <!--/.section-inner-->
+            </div>
+            <!--/.section-->

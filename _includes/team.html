@@ -1,0 +1,36 @@
+<div class="section fp-auto-height-responsive animated-row" data-section="team">
+                <!--/.Our Team-->
+                <div class="section-inner">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 wide-col-laptop">
+                            <div class="title-block animate" data-animate="fadeInUp">
+                                <h2>Meet Our Team</h2>
+                            </div>
+                            <!--/.title-block-->
+                            <div class="services-section">
+                                <div class="services-list owl-carousel">
+                                    {% for member in site.data.devs %}
+                                    <div class="container-fluid item animate" data-animate="fadeInUp">
+                                        <div class="container-fluid service-box">
+                                            <span class="service-icon">
+                                                <img class="img-rounded" src="{{ member.image }}"
+                                                    alt="{{ member.name }}" />
+                                            </span>
+                                            <h3>{{ member.name }}</h3>
+                                            <p>{{ member.role }}</p>
+                                            <a href="{{ member.url }}"><i class="fa fa-telegram fa-3x"></i></a>
+                                        </div>
+                                        <!--/.service-box-->
+                                    </div>
+                                    <!--/.item-->
+                                    {% endfor %}
+                                </div>
+                                <!--/.services-list-->
+                            </div>
+                            <!--/.services-section-->
+                        </div>
+                    </div>
+                </div>
+                <!--/.section-inner-->
+            </div>
+            <!--/.section-->

@@ -1,0 +1,40 @@
+# Site settings
+title: PitchBlack Recovery Project - A Custom Recovery For Android
+name: PitchBlack Recovery Project
+description: Official site of PitchBlack Recovery Project also knows as PBRP. It's a TWRP based open source custom recovery for Android. Officially supported devices are Xiaomi Redmi 3(ido), 3S/X(land), 4a(riva),5(rosy), 5a(riva), Note 3 SD/SE(kenzo/kate), Note 4X/SD(mido), Note 5(whyred), Note 5a(ugglite), Note 5a Prime(ugg), MI 6X(wayne), MI A2(jasmine), LYF Water 8(mobee01a), and many more counting...
+short_desc: An Open Source Custom Recovery For Android
+keywords: Recovery, TWRP, PitchBlack Recovery
+author: fr3akyphantom
+language: en
+timezone: UTC
+
+url: "https://pbrp.ml"
+baseurl: ""
+git_source: "https://github.com/PitchBlackRecoveryProject/PitchBlackRecoveryProject.github.io"
+permalink: none
+
+links:
+  tg_channel: "https://t.me/pbtwrp"
+  tg_group: "https://t.me/pbrpcomm"
+  fb_group: "https://fb.com/pbrpofficial"
+  github_org: "https://github.com/PitchBlackRecoveryProject"
+  sf_release: "https://sourceforge.net/projects/pitchblack-twrp"
+  sf_newsletter: "https://lists.sourceforge.net/lists/listinfo/pitchblack-twrp-discuss"
+  pbrp_mail: "mailto:pitchblackrecovery@gmail.com"
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+plugins:
+  - github-pages
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
