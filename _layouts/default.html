@@ -1,0 +1,52 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="icon" href="{{ site.baseurl }}/images/PBRP_icon.png" type="image/png" sizes="32x32">
+    <meta name="author" content="{{ site.author }}">
+    <!-- OG Meta Tags -->
+    {% include og-meta.html %}
+    <!-- Fonts and Styles -->
+    {% include head-css.html %}
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="preloader">
+            <div class="preloader-bounce">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <h3>Booting Up PitchBlack Recovery Project</h3>
+        </div>
+        <!--HEADER START-->
+        {% include header.html %}
+        <!--HEADER END-->
+        <div class="wrapper-background" style="background-image:url(images/bg.png);">
+            <div class="particles-section">
+                <div id="particles-js"></div>
+            </div>
+            <!--/.particles-section-->
+        </div>
+        <!--MAIN SECTION START-->
+        {{ content }}
+        <!--MAIN SECTION END-->
+        <!--FOOTER START-->
+        {% include footer.html %}
+        <!--FOOTER END-->
+    </div>
+    <!--/#wrapper-->
+    <!-- Load Javascripts at the end -->
+    {% include foot-js.html %}
+</body>
+
+</html>

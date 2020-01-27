@@ -1,75 +1,33 @@
 ---
+layout: default
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{ site.title }}</title>
-    <meta name="description" content="{{ site.description }}">
-    <link rel="icon" href="images/PBRP_icon.png" type="image/png" sizes="32x32">
-    <meta name="author" content="{{ site.author }}">
-    <!-- OG Meta Tags -->
-    {% include og-meta.html %}
-    <!-- Fonts and Styles -->
-    {% include head-css.html %}
-</head>
-<body>
-    <div id="wrapper">
-        <div class="preloader">
-            <div class="preloader-bounce">
-                <span></span>
-                <span></span>
-                <span></span>
+<!--MAIN SECTION START-->
+<div id="fullpage" class="fullpage-default">
+    <div class="section fp-auto-height-responsive animated-row" data-section="home">
+        <div class="section-inner">
+            <div class="welcome-box">
+                <h1 class="welcome-title animate" data-animate="fadeInUp"><span>Welcome to </span>PitchBlack
+                    <span>Recovery Project</span></h1>
+                <p class="animate" data-animate="fadeInUp">PitchBlack Recovery is a fork of TWRP with many
+                    improvements to make your experience better.</p>
+                <span class="btn next-section animate" data-animate="fadeInUp">Download Now</span>
             </div>
-            <h3>Booting Up PitchBlack Recovery Project</h3>
+            <!--/.welcome-box-->
         </div>
-        <!--HEADER START-->
-        {% include header.html %}
-        <!--HEADER END-->
-        <div class="wrapper-background" style="background-image:url(images/bg.png);">
-            <div class="particles-section">
-                <div id="particles-js"></div>
-            </div>
-            <!--/.particles-section-->
-        </div>
-        <!--MAIN SECTION START-->
-        <div id="fullpage" class="fullpage-default">
-            <div class="section fp-auto-height-responsive animated-row" data-section="home">
-                <div class="section-inner">
-                    <div class="welcome-box">
-                        <h1 class="welcome-title animate" data-animate="fadeInUp"><span>Welcome to </span>PitchBlack
-                            <span>Recovery Project</span></h1>
-                        <p class="animate" data-animate="fadeInUp">PitchBlack Recovery is a fork of TWRP with many
-                            improvements to make your experience better.</p>
-                        <span class="btn next-section animate" data-animate="fadeInUp">Download Now</span>
-                    </div>
-                    <!--/.welcome-box-->
-                </div>
-                <!--/.section-inner-->
-            </div>
-            <!--/.section-->
-            <!-- Include About Section -->
-            {% include about.html %}
-            <!-- Include Team Member Section -->
-            {% include team.html %}
-            <!-- Include Features Section -->
-            {% include features.html %}
-            <!-- Include Downloads Section -->
-            {% include downloads.html %}
-            <!-- Include Contacts Section -->
-            {% include contact.html %}
-        </div>
-        <!--/#main-->
-        <!--MAIN SECTION END-->
-        <!--FOOTER START-->
-        {% include footer.html %}
-        <!--FOOTER END-->
+        <!--/.section-inner-->
     </div>
-    <!--/#wrapper-->
-    <!-- Load Javascripts at the end -->
-    {% include foot-js.html %}
-</body>
-</html>
+    <!--/.section-->
+    <!-- Include About Section -->
+    {% include about.html %}
+    <!-- Include Team Member Section -->
+    {% include team.html %}
+    <!-- Include Features Section -->
+    {% include features.html %}
+    <!-- Include Downloads Section -->
+    {% include downloads.html %}
+    <!-- Include Contacts Section -->
+    {% include contact.html %}
+</div>
+<!--/#main-->
+<!--MAIN SECTION END-->
