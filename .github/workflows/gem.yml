@@ -7,7 +7,8 @@ on:
       - Gemfile.lock
 
 jobs:
-  build:
+
+  check:
 
     runs-on: ubuntu-latest
 
@@ -23,16 +24,16 @@ jobs:
         bundle config set no-cache 'true'
         bundle config set path 'vendor/bundle'
         bundle install --jobs 12 --retry 3
-        bundle update --all --jobs 12
-    - name: Check & Commit any Gem Updates
-      run: |
-        if [ -n "$(git status --porcelain | grep Gemfile)" ]; then
-          git add Gemfile Gemfile.lock
-          git config --local user.email "support@dependabot.com"
-          git config --local user.name "dependabot[bot]"
-          git commit -m "Gem: Force Ruby Gem Update"
-          git push -f origin master
-          echo "Updated the master branch"
-        else
-          echo "Gems Already Up2date"
-        fi
+        # bundle update --all --jobs 12
+
+  merge:
+
+    needs:
+      - check
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Merge me!
+        uses: ridedott/merge-me-action@master
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
