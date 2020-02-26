@@ -1,0 +1,38 @@
+name: DependaBot Update Check via Ruby
+
+on:
+  pull_request:
+    paths:
+      - Gemfile
+      - Gemfile.lock
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Ruby 2.6
+      uses: actions/setup-ruby@master
+      with:
+        ruby-version: 2.6.x
+    - name: Bundle and Update
+      run: |
+        gem install bundler
+        bundle config set no-cache 'true'
+        bundle config set path 'vendor/bundle'
+        bundle install --jobs 12 --retry 3
+        bundle update --all --jobs 12
+    - name: Check & Commit any Gem Updates
+      run: |
+        if [ -n "$(git status --porcelain | grep Gemfile)" ]; then
+          git add Gemfile Gemfile.lock
+          git config --local user.email "support@dependabot.com"
+          git config --local user.name "dependabot[bot]"
+          git commit -m "Gem: Force Ruby Gem Update"
+          git push -f origin master
+          echo "Updated the master branch"
+        else
+          echo "Gems Already Up2date"
+        fi
