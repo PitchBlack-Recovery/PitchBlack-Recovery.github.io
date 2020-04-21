@@ -12,12 +12,12 @@
 	"beryllium": {
 		"name": "Xiaomi Pocophone F1",
 		"dev": "Mohd Faraz",
-		"ver": "2.9.0"
+		"ver": "2.9.1"
 	},
 	"C106": {
 		"name": "Coolpad Cool 1 Dual",
-		"dev": "Mustafa Shaikh",
-		"ver": "2.9.0"
+		"dev": "Mr.Anonymous",
+		"ver": "2.9.1"
 	},
 	"daisy": {
 		"name": "Xiaomi MI A2 Lite",
@@ -43,6 +43,11 @@
 		"name": "InFocus G42",
 		"dev": "x",
 		"ver": "2.6"
+	},
+	"ginkgo": {
+		"name": "Xiaomi Redmi Note 8/8T",
+		"dev": "PBRP Team",
+		"ver": "2.9.1"
 	},
 	"hannah": {
 		"name": "Motorola E5 Plus",
@@ -75,9 +80,9 @@
 		"ver": "2.9.0"
 	},
 	"land": {
-		"name": "Xiaomi Redmi 3S/X",
-		"dev": "Droped Maintainer",
-		"ver": "2.8.1"
+		"name": "Xiaomi Redmi 3S/3X/Prime",
+		"dev": "PBRP Team",
+		"ver": "2.9.1"
 	},
 	"laurel": {
 		"name": "Xiaomi Mi A3",
@@ -86,8 +91,8 @@
 	},
 	"lavender": {
 		"name": "Xiaomi Redmi Note 7",
-		"dev": "x",
-		"ver": "2.9.0"
+		"dev": "PBRP Team",
+		"ver": "2.9.1"
 	},
 	"lv517": {
 		"name": "LG K20 Plus",
@@ -103,6 +108,11 @@
 		"name": "LYF Water 8",
 		"dev": "Mohd Faraz",
 		"ver": "2.9.0"
+	},
+	"olive": {
+		"name": "Xiaomi Redmi 8",
+		"dev": "Afiqqo",
+		"ver": "2.9.1"
 	},
 	"onclite": {
 		"name": "Xiaomi Redmi 7",
@@ -141,13 +151,13 @@
 	},
 	"RMX1851": {
 		"name": "Realme 3 Pro",
-		"dev": "x",
-		"ver": "2.9.0"
+		"dev": "Ahmed Moselhi",
+		"ver": "2.9.1"
 	},
 	"rolex": {
 		"name": "Xiaomi Redmi 4a",
 		"dev": "Mohd Faraz",
-		"ver": "2.9.0"
+		"ver": "2.9.1"
 	},
 	"rosy": {
 		"name": "Xiaomi Redmi 5",
@@ -181,8 +191,8 @@
 	},
 	"violet": {
 		"name": "Xiaomi Redmi Note 7 Pro",
-		"dev": "x",
-		"ver": "2.9.0"
+		"dev": "Yashpal Joshi & PBRP Team",
+		"ver": "2.9.1"
 	},
 	"wayne": {
 		"name": "Xiaomi MI 6X",
@@ -192,20 +202,15 @@
 	"whyred": {
 		"name": "Xiaomi Redmi Note 5",
 		"dev": "Reza Adi Pangestu",
-		"ver": "2.9.0"
+		"ver": "2.9.1"
 	},
 	"X00P": {
 		"name": "Asus ZenFone Max M1",
-		"dev": "x",
-		"ver": "2.9.0"
-	},
-	"X00TD": {
-		"name": "Asus ZenFone Max Pro M1",
-		"dev": "x",
-		"ver": "2.8.1"
+		"dev": "R乇Zﾑ",
+		"ver": "2.9.1"
 	},
 	"X00T": {
-		"name": "Asus ZenFone Max M1",
+		"name": "Asus ZenFone Max Pro M1",
 		"dev": "Akshat",
 		"ver": "2.9.0"
 	},
@@ -217,7 +222,7 @@
 	"X01BD": {
 		"name": "Asus Zenfone Max Pro M2",
 		"dev": "Legacy",
-		"ver": "2.9.0"
+		"ver": "2.9.1"
 	},
 	"Z010D": {
 		"name": "Asus Zenfone Max",
