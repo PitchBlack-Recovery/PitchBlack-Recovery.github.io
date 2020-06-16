@@ -28,8 +28,6 @@ jobs:
 
     - name: Updation of the devices
       run: |
-        rm _data/devices.json
-        curl https://raw.githubusercontent.com/PitchBlackRecoveryProject/vendor_pb/pb/pb_devices.json > _data/devices.json
-        git add .
-        git -c user.name="PitchBlack-BOT" -c user.email="pitchblackrecovery@gmail.com" commit -m "Added New devices"
+        wget https://raw.githubusercontent.com/PitchBlackRecoveryProject/vendor_pb/pb/work.sh
+        bash work.sh
         git push -q https://${{ secrets.GITHUB_TOKEN }}@github.com/PitchBlackRecoveryProject/PitchBlackRecoveryProject.github.io master
