@@ -4,8 +4,10 @@
     </div>
     
     <div class="container col-md-8 col-lg-8 card-columns wide-col-laptop">
-        {% for device_data in site.data.devices %}
-        {%- assign device = device_data[1] -%}
+        {% for oem_data in site.data.devices %}
+        {%- assign oem = oem_data[0] -%}
+          {% for device_data in site.data.devices[oem] %}
+          {%- assign device = device_data[1] -%}
         <div class="bg-dark card">
           <div class="card-header">
             {{ device.name }}
@@ -14,16 +16,17 @@
             <h5 class="card-title"></h5>
             <p class="card-text">
                 Codename: {{ device_data[0] }}<br>
-                PBRP Version: {{ device.ver }}<!-- TODO OFFICIAL--><br>
+                Latest Version: {{ device.latest_release }}<!-- TODO OFFICIAL--><br>
                 <!-- TODO Release Date: DD/MM/YYYY<br>-->
             </p>
 
             <a href="{{ site.links.sf_release }}/files/{{ device_data[0] }}/" target="_blank" class="btn btn-info">Download</a>
           </div>
           <div class="card-footer">
-            <small class="text-muted">Maintained by {{ device.dev }}</small>
+            <small class="text-muted">Maintained by {{ device.maintainer }}</small>
           </div>
         </div>
+          {% endfor %}
         {% endfor %}
       </div>          
 </div>

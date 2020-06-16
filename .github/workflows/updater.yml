@@ -11,6 +11,8 @@ on:
   push:
     branches:
     - 'master'
+    ignore-paths:
+    - '_data/devices.json'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -27,7 +29,7 @@ jobs:
     - name: Updation of the devices
       run: |
         rm _data/devices.json
-        wget -o _data/devices.json https://raw.githubusercontent.com/PitchBlackRecoveryProject/vendor_pb/pb/pb_devices.json
+        curl https://raw.githubusercontent.com/PitchBlackRecoveryProject/vendor_pb/pb/pb_devices.json > _data/devices.json
         git add .
         git -c user.name="PitchBlack-BOT" -c user.email="pitchblackrecovery@gmail.com" commit -m "Added New devices"
         git push -q https://${{ secrets.GITHUB_TOKEN }}@github.com/PitchBlackRecoveryProject/PitchBlackRecoveryProject.github.io master
