@@ -106,6 +106,11 @@
       "maintainer": "PBRP Team",
       "latest_release": "20200206-1752"
     },
+    "RMX1911": {
+      "name": "5",
+      "maintainer": "Harsh",
+      "latest_release": "20200622-1644"
+    },
     "RMX1921": {
       "name": "XT",
       "maintainer": "Advaith Bhat",
